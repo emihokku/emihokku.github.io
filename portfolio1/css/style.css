@@ -1,0 +1,310 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*body{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: #ffffcc
+    z-index: 0;
+    box-sizing:border-box;
+}*/
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+
+.menu {
+    position: fixed;
+    left: 0;
+    width: 150px;
+    height: 100%;
+    box-sizing: border-box;
+    background: #ebc6dd;
+    z-index: 98;
+    color: #b71d1d;
+}
+
+/*nav{
+	position: absolute;
+    width: 150px;
+}*/
+
+
+li{
+    padding: 15px;
+}
+
+
+.mark
+{
+    display: block;
+    width: 150PX;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.menu-1{
+    margin-top: 35px;
+    height: 200px;
+}
+
+.menu-2{
+    transition: all 1s;
+
+}
+.menu-2:hover{
+    background-color: #ff66cc;
+
+}
+
+
+.menu-social a{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+/*画像スクロール真ん中*/
+
+/**/.visual-main{  
+    background-image: url(../img/tea.jpg);
+    width: 500px;
+    height: 963px;
+    background-size: cover;
+    background-position: 0 150px;
+    padding-left: 150px;
+    float: left;
+
+}
+
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+/*p{
+    text-align: center;
+}*/
+
+.content{
+    height: 963px;
+    width: 60%;
+    display: inline-block;
+}
+
+#theTarget{
+    float: left;
+}
+
+/*画像ボタン右側*/
+
+
+.visual-side{
+    width: 40%;
+    height:963px;
+    float: right;
+    background-color: #FFFFCC
+    /*padding-left: 150px;*/
+}
+
+
+
+.top-pic{
+    background-image: url(../img/top-pic.jpg);
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.box{
+    width: 50%;
+    height: 25%;
+    background-size: cover;
+    background-position: center;
+    float: left;
+
+}
+
+.pic2{
+    background-image: url(../img/pic2.jpg);
+
+}
+
+.pic3{
+    background-image: url(../img/pic3.jpg);
+
+}
+
+.pic4{
+    background-image: url(../img/pic4.jpg);
+
+}
+
+.pic5{
+    background-image: url(../img/pic5.jpg);
+
+}
+
+
+.maketea{
+    padding-top: 80px;
+    /*padding-left: 150px;*/
+    width: 100%;
+    background-color: #EEFFFF
+}
+
+/*紅茶の淹れかた*/
+
+.tyaba{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.box1{
+    float: left;
+
+}
+
+.box2{
+    float: left;
+
+}
+
+
+.tyaba-icon{
+    position: relative;
+}
+
+.tyaba-icon :hover{
+    background-color: rgba(255,255,255,0.5);
+}
+
+.tyaba-icon p {
+    position: absolute;
+    color: white;
+    font-size: 10em;
+    letter-spacing: 15px;
+    font-family:Impact;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding: 0;
+}
+
+
+
+.tyaba-ma{
+    height:250px;
+    width:auto; 
+    display: inline-block;
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    margin: 50px;
+}
+
+
+
+/*茶葉の種類section*/
+
+.hyou{
+    height: 370px;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.flavor{
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: inline-block;
+
+}
+
+.tea-icon{
+    position: relative;
+}
+
+.tea-icon p {
+    position: absolute;
+    color: #009966;
+    font-size: 2em;
+    letter-spacing: 5px;
+    font-family: sans-serif ;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding: 0;
+}
+
+.tyaba-ma1{
+    height:200px;
+    width:auto; 
+    display: inline-block;
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.textcontents{
+    width:auto;
+    display:inline-block;
+    margin:2px;
+    font-size:12px;
+    color:#b3aeb5;
+}
+
+
+/*.heading{
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}*/
+
+.tp-1{
+    height:250px;
+    width:auto; 
+    display: inline-block;
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.tp-2{
+    height:250px;
+    width:auto; 
+    display: inline-block;
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    margin: 50px;
+}
+
+
